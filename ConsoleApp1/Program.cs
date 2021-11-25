@@ -13,6 +13,9 @@ namespace ConsoleApp1
         public static void Foo() {
             //TODO: something
         }
+        public static void Foo2()
+        {
+            Console.WriteLine(UtilClass.Sum(1,2));
+        }
     }
-    
 }
